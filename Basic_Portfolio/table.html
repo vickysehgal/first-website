@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table</title>
+</head>
+
+<body>
+  <table border="">
+    <caption>
+      My Marksheet
+    </caption>
+
+    <colgroup>
+      <col style="background-color: rgb(52, 195, 52)" />
+      <col span="2" style="background-color: rgb(133, 75, 175)" />
+    </colgroup>
+    <thead style="background-color: deeppink">
+      <tr>
+        <th>Subject</th>
+        <th>Marks</th>
+        <th>Passed</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mathmatics</td>
+        <td>95</td>
+        <td>yes</td>
+      </tr>
+    </tbody>
+
+    <tr>
+      <td>English</td>
+      <td>35</td>
+      <td>no</td>
+    </tr>
+
+    <tfoot>
+      <tr>
+        <th colspan="2">Passed</th>
+        <th>yes</th>
+      </tr>
+    </tfoot>
+  </table>
+  <br />
+  <br />
+
+  <!-- colspan example -->
+  <table border="">
+    <tr>
+      <th>Name</th>
+      <th colspan="2">Phone No.</th>
+    </tr>
+
+    <tr>
+      <td>Vicky Sehgal</td>
+      <td>12345875857</td>
+      <td>87508897555</td>
+    </tr>
+  </table>
+
+  <br /><br />
+
+  <!-- rowspan example -->
+
+  <table border="">
+    <tr>
+      <th>Name</th>
+      <th>Phone No.</th>
+    </tr>
+
+    <tr>
+      <td rowspan="2">Vicky Sehgal</td>
+      <td>12345875857</td>
+    </tr>
+    <tr>
+      <td>12345875857</td>
+    </tr>
+  </table>
+</body>
+
+</html>
